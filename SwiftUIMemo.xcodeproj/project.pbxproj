@@ -13,6 +13,8 @@
 		A0675BBF2AAC987400024EBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0675BBE2AAC987400024EBB /* Assets.xcassets */; };
 		A0675BC32AAC987400024EBB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0675BC22AAC987400024EBB /* Preview Assets.xcassets */; };
 		A0675BCA2AAC9A8600024EBB /* MainListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0675BC92AAC9A8600024EBB /* MainListView.swift */; };
+		A0675BCE2AACA2F500024EBB /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0675BCD2AACA2F500024EBB /* Memo.swift */; };
+		A0675BD02AACA76400024EBB /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0675BCF2AACA76400024EBB /* MemoStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		A0675BC02AAC987400024EBB /* SwiftUIMemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SwiftUIMemo.entitlements; sourceTree = "<group>"; };
 		A0675BC22AAC987400024EBB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A0675BC92AAC9A8600024EBB /* MainListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListView.swift; sourceTree = "<group>"; };
+		A0675BCD2AACA2F500024EBB /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		A0675BCF2AACA76400024EBB /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +91,8 @@
 		A0675BCC2AAC9B2600024EBB /* Memory */ = {
 			isa = PBXGroup;
 			children = (
+				A0675BCD2AACA2F500024EBB /* Memo.swift */,
+				A0675BCF2AACA76400024EBB /* MemoStore.swift */,
 			);
 			path = Memory;
 			sourceTree = "<group>";
@@ -162,9 +168,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0675BBB2AAC987100024EBB /* SwiftUIMemo.xcdatamodeld in Sources */,
+				A0675BD02AACA76400024EBB /* MemoStore.swift in Sources */,
 				A0675BCA2AAC9A8600024EBB /* MainListView.swift in Sources */,
 				A0675BB62AAC987100024EBB /* SwiftUIMemoApp.swift in Sources */,
 				A0675BB82AAC987100024EBB /* Persistence.swift in Sources */,
+				A0675BCE2AACA2F500024EBB /* Memo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
